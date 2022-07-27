@@ -1,0 +1,36 @@
+.card-container {
+  width: 400px;
+  margin: 32px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card-img {
+  height: 200px;
+  background-size: cover;
+  background-position: 100% 50%;
+}
+
+.card-white a {
+  opacity: 0;
+}
+
+.card-white:hover a {
+  opacity: 1;
+  /* visibilty */
+  /* display */
+  transition: .3s;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+}
